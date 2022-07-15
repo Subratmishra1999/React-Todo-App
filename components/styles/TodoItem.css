@@ -1,0 +1,30 @@
+#todoItem {
+  display: flex;
+  background-color: #4e4e50;
+  padding: 12px;
+  margin: 12px;
+  border-radius: 20px;
+  justify-content: space-between;
+  width: 300px;
+  overflow: hidden;
+}
+#buttonContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+button {
+  background-color: #1a1a1d;
+  color: white;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgb(195, 43, 43);
+  align-self: center;
+  margin-top: 8px;
+  flex: 1;
+}
+#value {
+  margin-right: 8px;
+  max-width: 50%;
+  word-wrap: break-word;
+}

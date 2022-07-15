@@ -1,0 +1,28 @@
+#inputContainer {
+  margin-top: 20px;
+}
+#inputBox {
+  width: 30%;
+  margin-right: 12px;
+}
+#addTodo,
+#inputBox {
+  padding: 12px 20px;
+  border-radius: 20px;
+  color: white;
+  background-color: #1a1a1d;
+}
+@media (max-width: 500px) {
+  #inputBox,
+  #addTodo {
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+  }
+  #inputBox {
+    width: 50%;
+  }
+  #inputContainer {
+    text-align: center;
+  }
+}
